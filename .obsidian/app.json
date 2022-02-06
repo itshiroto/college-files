@@ -1,9 +1,15 @@
 {
   "legacyEditor": false,
-  "livePreview": true,
-  "vimMode": true,
+  "livePreview": false,
+  "vimMode": false,
   "foldIndent": true,
   "foldHeading": true,
   "newFileLocation": "folder",
-  "newFileFolderPath": "Notes/Fleet Notes"
+  "newFileFolderPath": "Notes/Fleet Notes",
+  "fileSortOrder": "byModifiedTime",
+  "spellcheckLanguages": [
+    "en-US",
+    "id"
+  ],
+  "spellcheck": true
 }

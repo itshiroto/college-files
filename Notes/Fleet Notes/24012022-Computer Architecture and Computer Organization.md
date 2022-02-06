@@ -31,3 +31,4 @@ Tags: #CompOrg #CompArch
 	- Hal ini dapat dilakukan dengan memahami sistem hierarki pada sistem kompleks, termasuk komputer.
 
 
+

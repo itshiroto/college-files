@@ -46,6 +46,7 @@ int main() {
     printf("Masukkan kata: ");
     scanf("%[^\n]%*c", kata);
     int len = strlen(kata);
+    printf("%d", len);
 
     switch (menu) {
     case 1:

@@ -4,13 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "9ab9e1ed52015ada",
+        "id": "0ebc5f1a2a8084a1",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Main/Course TOC/IF231.md",
-            "mode": "source",
+            "file": "Notes/Fleet Notes/05022022-How Microcontrollers Work.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "8432823acea4f30d",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Resources/CE332/Assignments/Tugas-M01-Embedded System Microcontroller.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "febc4f97a168c167",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Fleet Notes/05022022-What is an Arduino.md",
+            "mode": "preview",
             "source": true
           }
         }
@@ -53,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "43ad2b096a759d6e",
@@ -69,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Main/Course TOC/IF231.md",
+                "file": "Notes/Fleet Notes/05022022-What is an Arduino.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -79,25 +104,34 @@
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "e25af08f5a15fe3d",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "active": "9ab9e1ed52015ada",
+  "active": "febc4f97a168c167",
   "lastOpenFiles": [
-    "Main/Course TOC/IF231.md",
-    "Notes/Section Notes/CE332-W01.md",
+    "Notes/Fleet Notes/05022022-What is an Arduino.md",
+    "Resources/CE332/Assignments/Tugas-M01-Embedded System Microcontroller.md",
+    "Notes/Fleet Notes/05022022-How Microcontrollers Work.md",
+    "Notes/Fleet Notes/03022022-Embedded Systems.md",
+    "Notes/Fleet Notes/04022022-Microcontroller and Microprocessor differences.md",
+    "Notes/Fleet Notes/03022022-Microcontroller and Microprocessor.md",
+    "Notes/Fleet Notes/06022022-GPU.md",
     "Main/Course TOC/CE332.md",
-    "Main/UMN Informatics Second Term.md",
-    "Main/Course TOC/IF230.md",
-    "Notes/Fleet Notes/24012022-Computer Architecture and Computer Organization.md",
-    "Templates/Course Templates.md",
-    "Templates/Fleet Notes.md",
-    "Templates/Section Notes.md",
-    "Notes/Fleet Notes/24012022-Function and Structure.md"
+    "Notes/Section Notes/CE332-W01.md",
+    "Notes/Fleet Notes/24012022-Computer Architecture and Computer Organization.md"
   ]
 }
