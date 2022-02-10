@@ -33,3 +33,5 @@
 00000043614#Febe Febrita#Informatika
 00000047369#Albert Agustian#Sistem Informasi
 00000012345#Siapa aja#Kepo
+00000059635#Rivo Juicer Wowor#Informatika
+00000057281#Agus Gunar#Sistem Informasi

@@ -65,3 +65,42 @@ body {
   padding: 0;
   object-fit: cover;
 }
+
+#kontak-form input {
+  margin: 0;
+}
+
+#kontak-nama {
+  background-color: yellow;
+  padding: 5px 0;
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+
+#btn-daftar{
+  padding: 0.55em 0.8em;
+  border-radius: 25px;
+  color: #d11a56;
+  border: 2px solid #fc68a8;
+  background-color: #fdb4c0;
+  text-shadow: 1px 1px 1px #000000;
+}
+.servis-tabel {
+  border-collapse: collapse;
+}
+
+.servis-tabel th, .servis-tabel td{
+  padding: 5px 15px;
+}
+
+.servis-tabel tr {
+  border: 1px solid gray;
+}
+
+.servis-th1 {
+  background-color: #ffb4c0;
+}
+
+.servis-th2 {
+  background-color: lightgray;
+}
