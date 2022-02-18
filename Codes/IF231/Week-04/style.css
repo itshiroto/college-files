@@ -1,0 +1,21 @@
+.object-fit-cover { object-fit: cover; }
+#banner {
+  max-height: 400px;
+  
+}
+
+#highlight .col {
+  max-height: 250px;
+}
+
+#client-img img {
+  width: 150px;
+}
+
+.pti-pinkbg {
+  background-color: #ff1495;
+}
+
+.social-icons {
+  width:50px;
+}
