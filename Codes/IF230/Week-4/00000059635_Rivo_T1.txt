@@ -1,0 +1,8 @@
+1. Variasi linked list yang digunakan adalah double linked list.
+   Hal ini bisa dibuktikan dari struktur nodenya yang memiliki dua pointer
+   yaitu *next, dan *prev. *next untuk mengarahkan ke node selanjutnya dari
+   node sekarang, dan *prev untuk node sebelumnya.
+
+2. Tambah belakang, karena pada line 32 node yang baru dimasukkan kedalam pointer tail.
+   Oleh karena itu, implementasi linked list pada program ini menggunakan tambah node
+   di belakang.

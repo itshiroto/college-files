@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <p>cek di console devtools</p>
+    <script>
+      let input = window.prompt("Input Angka");
+      let square = [];
+      for (let i = 1; i <= input; i++) {
+        square = [...square, i*i];
+        if (i === 1) continue;
+        if (i === 2 || i === 3 || i === 5) console.log(i);
+        if (i % 2 === 0) continue;
+        if (i % 3 === 0) continue;
+        if (i % 5 === 0) continue;
+        if (square.includes(i)) continue;
+        console.log(i);
+      }
+    </script>
+  
+  </body>
+</html>

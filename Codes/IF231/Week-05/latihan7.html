@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hello World!</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <h3>Grafik Jumlah Kehadiran Mahasiswa</h3>
+    <script>
+      function renderAbsence(jumlah) {
+        let result = "";
+        for(let i = 0; i < jumlah; i++) {
+          result += "x"
+        }
+        return result;
+      }
+
+      let senin = prompt("Jumlah mahasiswa masuk pada hari senin");
+      let selasa = prompt("Jumlah mahasiswa masuk pada hari selasa");
+      let rabu = prompt("Jumlah mahasiswa masuk pada hari rabu");
+      let kamis = prompt("Jumlah mahasiswa masuk pada hari kamis");
+      let jumat = prompt("Jumlah mahasiswa masuk pada hari jumat");
+      document.write(`Senin: ${renderAbsence(senin)}<br />`);
+      document.write(`Selasa: ${renderAbsence(selasa)}<br />`);
+      document.write(`Rabu: ${renderAbsence(rabu)}<br />`);
+      document.write(`Kamis: ${renderAbsence(kamis)}<br />`);
+      document.write(`Jumat: ${renderAbsence(jumat)}<br />`);
+    </script>
+  </body>
+</html>

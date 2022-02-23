@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hello World!</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <script>
+      function calculateGrade(tugas, uts, uas) {
+        let nilaiAkhir = (tugas * 0.4) + (uts * 0.25) + (uas * 0.35);
+        let grade;
+
+        if(nilaiAkhir >= 85) grade = "A";
+        else if(nilaiAkhir >= 80) grade = "A-";
+        else if(nilaiAkhir >= 75) grade = "B+";
+        else if(nilaiAkhir >= 70) grade = "B";
+        else if(nilaiAkhir >= 65) grade = "B-";
+        else if(nilaiAkhir >= 60) grade = "C+";
+        else if(nilaiAkhir >= 55) grade = "C";
+        else if(nilaiAkhir >= 45) grade = "D";
+        else grade = "E";
+
+        document.write(`<br />Nilai akhir: ${nilaiAkhir}`);
+        document.write(`<br />Grade: ${grade}`);
+      }
+
+      jumlahMhs = window.prompt("Jumlah");
+      for(i=1; i <= jumlahMhs; i++) {
+        console.log("test");
+        nama = window.prompt("Nama");
+        uts = window.prompt("UTS");
+        uas = window.prompt("UAS");
+        tugas = window.prompt("Tugas");
+
+        document.write(`<br /><br /> ${i}. ${nama} <br />`);
+        document.write(`Tugas: ${tugas}`);
+        document.write(`<br />UTS: ${uts}`);
+        document.write(`<br />UAS: ${uas}`);
+        calculateGrade(tugas, uts, uas);
+      }
+    </script>
+  
+  </body>
+</html>

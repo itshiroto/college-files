@@ -1,0 +1,6 @@
+1. Variasi linked list yang digunakan merupakan bentuk circular linked list.
+   Kita bisa lihat pada line 33 dimana pointer next pada *tail menunjuk
+   ke *head yang menyebabkan linked listnya berputar.
+
+2. Sama seperti tugas sebelumnya, linked list ini menggunakan implementasi
+   tambah belakang yang kita bisa lihat kodenya pada line 32.

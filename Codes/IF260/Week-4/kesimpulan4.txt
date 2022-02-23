@@ -1,0 +1,20 @@
+1. Program prak4-1a akan menerima pesan dari prak4-1b 
+   Dimana pesan tersebut akan disalurkan melalui pipe
+   fifo1 yang telah dibuat menggunakan command mkfifo 
+   tadi. Jika kita menghapus instruksi `close(fd)`, 
+   memang tidak terjadi apa-apa pada programnya, bahkan
+   berjalan dengan lancar, tetapi akan menyebabkan bug
+   pada program yang akan menggunakan pipe fifo1 tersebut
+   karena fifo1 tidak memiliki EOF.
+
+2. Karena sebelum program1 dijalankan, kita telah mengisi
+   data di dalam shared memory yang telah dialokasikan sebelumnya
+   sehingga ketika kita run kembali programnya tanpa argumen, maka data
+   tersebut akan diterima dari shared memory dan ditampilkan di terminal.
+
+3. a) Pada saat awal menjalankan, program prak4-3a akan mengeluarkan output dengan
+      angka berurutan dari 0-4. Tapi ketika saya mengganti instruksi `sleep()`
+      pada child functionnya, maka program akan berjalan seperti biasa, hanya saja
+      variabel i akan lebih lambat untuk bertambah dan stuck dari angka 0-2.
+   b) Ketika program 2 dijalankan berkali-kali, maka hasilnya akan selalu
+      berbeda.
