@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <script>
+      let jamInput = window.prompt("Jam Sekarang");
+      if (jamInput >= 6 && jamInput <= 10) alert("Selamat Pagi");
+      else if (jamInput >= 11 && jamInput <= 14) alert("Selamat Siang");
+      else if (jamInput >= 15 && jamInput <= 17) alert("Selamat Sore");
+      else if (jamInput >= 18 && jamInput <= 22) alert("Selamat Malam");
+      else if ((jamInput >= 23 && jamInput <= 24) || (jamInput >= 0 && jamInput <= 5)) alert("Selamat Tidur");
+    </script>
+  
+  </body>
+</html>

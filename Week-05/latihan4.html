@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hello World!</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <script>
+      while(true) {
+          let pilih = window.prompt("Luas/Keliling?");
+          if(pilih !== "luas" && pilih !== "keliling"){
+              alert('Pilihan tidak sesuai');
+              continue;
+          }
+  
+          panjang = parseInt(window.prompt("Panjang"));
+          lebar = parseInt(window.prompt("Lebar"));
+  
+          if(pilih === 'luas') {
+              hasil = panjang * lebar;
+          } else if(pilih === 'keliling') {
+              hasil = 2 * (panjang + lebar);
+          }
+          alert(hasil);
+          break;
+      }
+
+    </script>
+  </body>
+</html>

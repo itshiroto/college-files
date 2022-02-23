@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+    <title>Hello World</title>
+  </head>
+  <body>
+    <script>
+nama = window.prompt("Nama");
+nilai = window.prompt("Nilai");
+      alert(`Nilai untuk ${nama} adalah ${cekNilai(nilai)}`);
+
+function cekNilai(nilai) {
+  if(nilai >= 85) return "A";
+  else if(nilai >= 80) return "A-";
+  else if(nilai >= 75) return "B+";
+  else if(nilai >= 70) return "B";
+  else if(nilai >= 65) return "B-";
+  else if(nilai >= 60) return "C+";
+  else if(nilai >= 55) return "C";
+  else if(nilai >= 45) return "D";
+  else return "E";
+}
+
+    </script>
+  
+  </body>
+</html>
+
