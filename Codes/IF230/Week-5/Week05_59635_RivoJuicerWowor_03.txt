@@ -1,0 +1,5 @@
+Function `insertionSort()` tersebut bekerja seperti berikut. Pertama fungsi ini menerima dua argumen, yaitu array yang dinamakan `bil` serta panjangnya yang diisi melalui variabel `n`.
+Kemudian fungsi tersebut akan masuk ke dalam suatu looping dimana ia akan menyimpan elemen kedua dari array tersebut melalui statement `temp = bil[i]` ke dalam variabel temp.
+Lalu terdapat looping lagi di dalam loop tersebut yang bertujuan untuk memindahkan nilai-nilai yang lebih besar daripada nilai variabel `temp` tersebut ke sebelah kiri.
+Setelah semua nilai yang lebih besar tadi dipindahkan, maka nilai dalam variabel `temp` tadi akan dimasukkan ke daerah yang telah disediakan oleh `for` loop sebelumnya.
+Hal ini dilakukan sampai semua elemen telah diperiksa dan terurut.

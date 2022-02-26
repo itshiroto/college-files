@@ -1,0 +1,5 @@
+Tidak akan terjadi apa-apa. Karena kita bisa melihat dalam `if` statement dari functionya
+dimana dia akan mengecek jika nilai yang ada dalam index `[j]` itu lebih besar ketimbang `[j-1]`
+sedangkan dalam variabel array `bil`, jika kita mengambil salah satu nilai dan membandingkannya
+dengan nilai sebelumnya pada array (contoh 66 dan 55), maka `if` statement tidak akan mendapatkan
+hasil TRUE. dan hal ini berlaku di seluruh nilai pada array `bil` sehingga tidak akan terjadi apa-apa.

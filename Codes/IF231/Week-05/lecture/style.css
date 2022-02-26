@@ -1,0 +1,44 @@
+html, body {
+    height:100%;
+}
+
+main {
+    height: 100%;
+    position: relative;
+}
+
+#content{
+    background-color: #880404;
+    color: white;
+    padding: 10px;
+    z-index: 2;
+}
+th, td {
+    padding: 5px 10px;
+}
+
+.form-input {
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+#table{
+    background-color: #880404;
+    color: white;
+}
+
+#form-submit{
+    background-color: #888484;
+}
+
+.form-input label {
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+#created{
+    width:100%;
+    background-color: grey;
+}
