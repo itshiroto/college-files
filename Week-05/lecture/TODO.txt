@@ -1,0 +1,10 @@
+[X] Selesain inputan di HTML
+    [X] Nama 
+    [X] Alamat
+    [X] HP
+    [X] Category (3 inputan)
+    [X] Tombol Sumbit
+[X] Bikin function untuk nambah array
+    
+[X] Kaitkan elemen html dengan javascript (document.getElementByID)
+[X] Percantik pakai bootstrap
