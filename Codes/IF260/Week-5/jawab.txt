@@ -1,0 +1,27 @@
+PRAKTIKUM 5.1
+---------------
+Pada program pertama (Prak5-1a), akan dibuat suatu variabel semaphore dengan nama "mutex"
+menggunakan command `sem_open()` dan menginisialisasinya dengan angka 1. Jika semaphore
+tersebut gagal dibuat, maka akan ada suatu error handling yang melepaskan semaphore 
+tersebut (jika sudah ada), dan membuat semaphore baru lagi sesuai argumen yang diberikan.
+Lalu dibuatlah suatu for-loop yang dimana dia akan mengurangi mutex tersebut dengan angka 1.
+Iterasi pertama, mutex akan berjumlah 0 (1-1 = 0) sehingga dia akan mengoutput kalimat 
+"Intro to Semaphore..." ke console. Pada for loop kedua, mutex akan berjumlah -1, sehingga
+proses tersebut akan terhenti hingga mutex berjumlah 0 atau lebih.
+
+Pada program kedua, proses inisialisasi semaphorenya kurang lebih mirip dengan program pertama,
+hanya saja kita tidak menginisialisasi suatu nilai di dalam semaphorenya, tapi kita membaca
+nilai yang ada di dalamnya. Dan error handlingnya bekerja jika semaphore yang dibaca itu
+tidak ditemukan, maka program tersebut akan mengeluarkan error dan keluar. Kemudian dia akan
+masuk ke suatu for-loop, dimana ia akan mengeluarkan pesan "Tekan enter: " pada console dan
+menunggu user untuk menekan enter. Jika user menekan enter, maka semaphore mutex tersebut akan
+tertambah oleh bilangan satu sehingga posisi mutex sekarang menjadi 0 (-1 + 1 = 0). Dan pada
+program Prak5-1a, kita bisa melihat pesan "Intro to Semaphore..." akan keluar lagi.
+
+Dan loop ini berjalan terus (mutex dikurangi oleh program pertama, kemudian ditambahkan oleh
+program kedua) hingga 10 iterasi. Jika sudah selesai, maka kedua program akan menutup serta
+menghapus semaphore tersebut dari memori.
+
+PRAKTIKUM 5.2
+--------------
+

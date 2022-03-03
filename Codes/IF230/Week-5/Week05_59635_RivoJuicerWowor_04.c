@@ -69,7 +69,7 @@ int main(int argc, char const *argv[]) {
     }
 
     int idx = 0;
-    for (j = 0; j < 10; j++) {
+    for (j = 9; j >= 0; j++) {
       struct linkedList *ptr = bucket[j];
       while (ptr != NULL) {
         data[idx] = ptr->value;
