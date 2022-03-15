@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hello World!</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Click Event</h1>
+    <button id="btnClickEv">Click Me!</button>
+    <div id="clickMsg"></div>
+
+    <br>
+
+    <h1>Effects</h1>
+    <button id="btnHide">Sembunyikan</button><button id="btnShow">Tampilkan</button>
+    <div id="hideShowMsg">SOMETHING SOMETHING</div>
+
+    <br>
+
+    <h1>Get Value From Input</h1>
+    <input type="text" id="inputVal" />
+    <button id="btnGetVal">Get Value</button>
+    <div id="showVal"></div>
+
+    <br>
+
+    <h1>Add Children</h1>
+    <button id="btnMelahirkan">Melahirkan</button>
+    <div id="ortu"></div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      $("#btnClickEv").click(function() {
+        $("#clickMsg").text("Button above me is clicked.");
+      });
+
+      $("#btnHide").click(function() {
+        $("#hideShowMsg").fadeOut();
+      });
+      $("#btnShow").click(function() {
+        $("#hideShowMsg").fadeIn();
+      });
+
+      $("#btnGetVal").click(function(){
+        val = $("#inputVal").val();
+        $("#showVal").text(val);
+      })
+
+      $("#btnMelahirkan").click(function() {
+        $("#ortu").append("<div style='background: deeppink; margin: 2px;'>Anak</div>");
+      })
+    </script>
+  </body>
+</html>

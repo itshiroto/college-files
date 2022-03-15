@@ -1,0 +1,16 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+}
+
+#messages {
+  overflow-y: scroll;
+}
+
+#messages h6, #messages p {
+  margin: 0;
+}
