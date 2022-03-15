@@ -1,0 +1,18 @@
+Untuk menentukan kompleksitas pada algoritma sequential search, kita bisa menggunakan big O notation.
+
+BEST CASE: O(1)
+Kita dapat menyimpulkan bahwa algoritma ini dapat mendapatkan item yang dicari secara instan
+karena terdapat probabilitas bahwa item yang dicari berada di depan sehingga kita dapat 
+menyimpulkan bahwa kasus terbaik dalam algoritma ini memiliki kompleksitas O(1).
+
+WORST CASE: O(n)
+Terdapat probabilitas juga bahwa item yang dicari berada di paling belakang dalam array
+sehingga untuk mencarinya, kita perlu membandingkannya pada semua item yang ada di dalam arraynya.
+Misalkan panjang array adalah N, maka diperlukan N perbandingan untuk mencari itemnya, sehingga
+rata, dan didapatkan kompleksitas waktunya untuk case terburuknya adalah O(n).
+
+AVERAGE CASE: O(n)
+Untuk mendapatkan itemnya, algoritma ini perlu membandingkan semua item yang ada dalam array
+satu per satu. Sama seperti case sebelumnya, jika panjang array adalah N, maka perlu rata-rata 
+N perbandingan untuk mencari itemnya. sehingga didapatkan kompleksitas waktunya untuk case
+rata-rata adalah O(n).

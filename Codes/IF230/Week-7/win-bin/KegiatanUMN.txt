@@ -1,0 +1,39 @@
+55#AIESEC UMN#Sains & Sosial#UKM
+72#Aikido#Olahraga#Komunitas
+4#Capoeira#Olahraga#UKM
+78#Floor Ball#Olahraga#Komunitas
+53#Game Development Club (GDC)#Sains & Sosial#UKM
+73#Ikatan Bikers UMN (IBU)#Unspecified#Komunitas
+24#J-Cafe#Seni & Budaya#UKM
+77#Kokonat#Unspecified#Komunitas
+59#Kompas Corner#Sains & Sosial#LSO
+3#Lions Badminton#Olahraga#UKM
+1#Lions Basket#Olahraga#UKM
+2#Lions Futsal#Olahraga#UKM
+52#MAPALA#Sains & Sosial#UKM
+80#Masterpiece#Unspecified#Komunitas
+30#Mufomic#Seni & Budaya#UKM
+74#Multimedia Drone Community#Unspecified#Komunitas
+26#Obscura#Seni & Budaya#UKM
+79#Popsicle#Unspecified#Komunitas
+25#Qorie#Seni & Budaya#UKM
+51#Rencang#Sains & Sosial#UKM
+71#Shinkendo#Olahraga#Komunitas
+76#Social Designee#Sains & Sosial#Komunitas
+8#Spectre#Olahraga#UKM
+27#Street Dance#Seni & Budaya#UKM
+22#Teater Katak#Seni & Budaya#UKM
+7#Tenis Meja#Olahraga#UKM
+23#Tracce#Seni & Budaya#UKM
+58#U-Store#Sains & Sosial#LSO
+75#UMN Board Game#Unspecified#Komunitas
+54#UMN English Student Council (UESC)#Sains & Sosial#UKM
+57#UMN Medical Center#Sains & Sosial#LSO
+56#UMN Programming Club (UMNPC)#Sains & Sosial#UKM
+83#UMN Rocket League League#Olahraga#Komunitas
+6#UMN Softball Team#Olahraga#UKM
+28#UMN Symphony Orchestra (USO)#Seni & Budaya#UKM
+21#Ultima Sonora#Seni & Budaya#UKM
+29#Ultima Toys#Seni & Budaya#UKM
+5#Ultimatum Taekwondo#Olahraga#UKM
+9#Voli#Olahraga#UKM
