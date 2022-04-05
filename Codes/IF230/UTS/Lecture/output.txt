@@ -1,0 +1,20 @@
+Name: Eka Jaya Harsono
+Total Transaksi: 100000
+Umur: 28
+==========================
+Name: Lorentzo
+Total Transaksi: 1500
+Umur: 25
+==========================
+Name: William
+Total Transaksi: 12010
+Umur: 22
+==========================
+Name: Noviana
+Total Transaksi: 80000
+Umur: 20
+==========================
+Name: Vero
+Total Transaksi: 85000
+Umur: 21
+==========================

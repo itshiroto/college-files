@@ -1,0 +1,13 @@
+Rivo Juicer Wowor
+00000059635
+
+1. Mengapa dilakukan rehashing?
+
+2. Kapan rehashing dilakukan berdasarkan gambar diatas?
+
+3. Sebutkan langkah-langkah melakukan rehashing secara singkat, padat, dan jelas!
+
+4. Jelaskan secara singkat apa itu Sieve of Erathosthenes!
+
+5. Apakah size yang baru harus mengikuti bilangan prima?
+

@@ -1,0 +1,8 @@
+1. Salah satu alternatif dari Valgrind adalah Sanitizer. Sanitizer merupakan salah satu fitur dari compiler LLVM Clang dan sekarang sudah tersedia di GCC. 
+   Beda dengan Valgrind dimana Valgrind akan menganalisa program setelah dicompile, Sanitizer akan menganalisa ketika program sedang dicompile, sehingga
+   ketika program dijalankan dengan biasa, Sanitizer akan mengeluarkan hasil pencarian memory leaknya. Sehingga runtime dari sanitizer akan lebih cepat
+   ketimbang Valgrind. 
+2. Valgrind memiliki performa yang kurang ketimbang memchecker lainnya. Berdasarkan tabel dari wiki Sanitizers
+   [https://github.com/google/sanitizers/wiki/AddressSanitizerComparisonOfMemoryTools], Valgrind memiliki tingkat slowdown sebesar 20x. Hal ini menyebabkan
+   Valgrind memiliki performa yang sangat lambat untuk aplikasi kompleks yang banyak memakan memori.
+

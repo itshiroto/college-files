@@ -12,8 +12,11 @@ void swap(int *bil1, int *bil2) {
 void selectionSort(int *bil, int n) {
   int i, j, temp;
   for (i = 0; i < n; i++) {
+    printf("iteration i = %d\n", i);
     temp = i;
     for (j = i + 1; j < n; j++) {
+      printf("iteration j = %d\n", j);
+
       // Kita hanya perlu menukar simbol perbandingan
       // di dalam if statementnya untuk mengubah order
       // dari ascending ke descending
@@ -23,6 +26,7 @@ void selectionSort(int *bil, int n) {
     if (temp != i)
       swap(&bil[temp], &bil[i]);
   }
+  printf("total iteration = %d\n", i + j);
 }
 
 int main(int argc, char const *argv[]) {

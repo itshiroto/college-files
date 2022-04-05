@@ -1,0 +1,24 @@
+1. Tujuan dari program "latihan-8.c" adalah pertama dengan mengisi variabel x dengan array yang berisikan
+dua elemen dengan function `increment()`. Elemen pertama akan berisikan 10 sedangkan elemen kedua akan berisikan 20.
+Kemudian program ini akan menukar dua variabel string yang ada di function `tukar()`, dan mereturn nilai hasil
+tukarnya ke main.
+
+2. increment()
+   a) Variabel x pada function increment() tidak memiliki jumlah memori yang cukup untuk menampung dua elemen integer.
+   b) Tidak ada inisialisasi nilai pada variabel x.
+   c) Setelah digunakan dan program keluar, variabel x tidak di-free.
+
+   tukar()
+   a) Penukaran variabel dilakukan dengan menukar address variabelnya, ketimbang nilai dari variabel tersebut.
+   b) variabel c di-free terlalu prematur
+
+3. Pada function increment(), variabel x belum bersifat array sehingga hanya dialokasikan memori sebesar 4 bytes saja
+ketimbang 8 bytes (untuk array integer sebesar 2 element). Ketika program masuk ke line 14, program akan bingung karena
+variabel ini tidak memiliki memori yang cukup untuk menyimpan datanya. Lalu, meskipun variabel x sudah mengalokasikan
+memorinya, tapi isinya belum diinisialisasi, sehingga data yang ada pada lokasi variabel tersebut akan masih ada di
+dalam variabel tersebut. Dan terakhir, variabel yang diinisialisasi pada function `increment()` tidak dibersihkan
+atau `free()` setelah program main berjalan, sehingga terjadilah memory leak.
+
+Sedangkan pada function tukar(), penukaran dilakukan dengan menukar addressnya, sehingga ketika variabel b di free,
+nilai yang ada pada variabel c akan hilang. Dan kemudian, sebelum sempat di-return, variabel c sudah dibersihkan 
+terlebih dahulu dengan free(), sehingga function tersebut tidak mereturn apa-apa.

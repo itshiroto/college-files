@@ -1,0 +1,25 @@
+10c10,11
+<   x = (int *)malloc(sizeof(int));
+---
+>   x = calloc(2, sizeof(int)); /// Mengubah malloc dengan calloc agar array x
+>                               /// langsung terinisialisasi
+32,34c33,37
+<   c = b;
+<   b = a;
+<   a = c;
+---
+>   // Menukar proses penukaran variabel dengan strcpy agar nilainya saja yang
+>   // ditukar
+>   strcpy(c, b);
+>   strcpy(b, a);
+>   strcpy(a, c);
+39a43
+>   // Membersihkan variabel a dan b saja karena sudah tidak dibutuhkan lagi.
+42d45
+<   free(c);
+54a58,62
+> 
+>   // Membersihkan kedua variabel x dan y karena sudah tidak dipakai lagi.
+>   free(x);
+>   free(y);
+> 

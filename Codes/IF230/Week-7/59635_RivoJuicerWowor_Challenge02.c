@@ -42,23 +42,71 @@ void writeFile(Kegiatan DB[], int size) {
   fclose(data);
 }
 
-void printList(Kegiatan DB[], int size) {
+void printList(Kegiatan input[], int size) {
+  if (size == 0) {
+    printf("Data tidak ditemukan atau masih kosong.\n");
+    return;
+  }
   printf("\n");
   printf(
       "|=====|====================================================|============"
       "==========|======================|\n");
-  printf("| %-3s | %-50s | %-20s | %-20s |\n", "ID", "Nama Kegiatan", "Jenis",
-         "Bidang");
+  printf("| %-3s | %-50s | %-20s | %-20s |\n", "ID", "Nama Kegiatan", "Bidang",
+         "Jenis");
   printf(
       "|=====|====================================================|============"
       "==========|======================|\n");
   for (int i = 0; i < size; i++)
-    printf("| %03d | %-50s | %-20s | %-20s |\n", DB[i].id, DB[i].nama,
-           DB[i].bidang, DB[i].jenis);
+    printf("| %03d | %-50s | %-20s | %-20s |\n", input[i].id, input[i].nama,
+           input[i].bidang, input[i].jenis);
 
   printf(
       "|=====|====================================================|============"
       "==========|======================|\n");
+}
+
+void printMenu() {
+  printf("==============================\n"
+         "          Tampilkan Data      \n"
+         "==============================\n");
+  printf("1. Tampilkan semua data\n");
+  printf("2. Tampilkan data berdasarkan Jenis Kegiatan\n");
+  printf("3. Tampilkan data berdasarkan Bidang\n");
+  printf("0. Kembali\n");
+  printf("Pilih menu: ");
+  int menu;
+  scanf("%d%*c", &menu);
+  Kegiatan temp[50];
+  int tempSize = 0;
+  switch(menu) {
+  case 1:
+    printList(DB, DB_SIZE);
+    break;
+  case 2: 
+    printf("Masukkan jenis kegiatan: ");
+    char jenis[50];
+    scanf("%[^\n]%*c", jenis);
+    for (int i = 0; i < DB_SIZE; i++) {
+      if (strcasecmp(DB[i].jenis, jenis) == 0) {
+        temp[tempSize] = DB[i];
+        tempSize++;
+      }
+    }
+    printList(temp, tempSize);
+    break;
+  case 3: 
+    printf("Masukkan bidang: ");
+    char bidang[50];
+    scanf("%[^\n]%*c", bidang);
+    for (int i = 0; i < DB_SIZE; i++) {
+      if (strcasecmp(DB[i].bidang, bidang) == 0) {
+        temp[tempSize] = DB[i];
+        tempSize++;
+      }
+    }
+    printList(temp, tempSize);
+    break;
+  }
 }
 
 int mainMenu() {
@@ -235,7 +283,7 @@ int main(void) {
   while (1) {
     switch (mainMenu()) {
     case 1:
-      printList(DB, DB_SIZE);
+      printMenu();
       printf("\n");
       break;
     case 2:

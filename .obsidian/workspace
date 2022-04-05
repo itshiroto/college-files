@@ -4,24 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "0ebc5f1a2a8084a1",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Resources/CE332/Assignments/Tugas-M01-Embedded System Microcontroller.md",
-            "mode": "preview",
-            "source": true
-          }
-        }
-      },
-      {
         "id": "8432823acea4f30d",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Notes/Fleet Notes/06022022-GPU.md",
+            "file": "Resources/UMN223/Presentation/Introduction Draft.md",
+            "mode": "source",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "2a1d17bdc99088ef",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Notes/Fleet Notes/05042022-Introduction in Story Message.md",
             "mode": "source",
             "source": true
           }
@@ -65,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "43ad2b096a759d6e",
@@ -82,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Fleet Notes/06022022-GPU.md",
+                "file": "Resources/UMN223/Presentation/Introduction Draft.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,15 +110,15 @@
   },
   "active": "8432823acea4f30d",
   "lastOpenFiles": [
+    "Resources/UMN223/Presentation/Introduction Draft.md",
+    "Notes/Fleet Notes/05042022-Introduction in Story Message.md",
     "Notes/Fleet Notes/06022022-GPU.md",
+    "Main/Course TOC/IF230.md",
     "Resources/CE332/Assignments/Tugas-M01-Embedded System Microcontroller.md",
     "Notes/Fleet Notes/05022022-What is an Arduino.md",
     "Notes/Fleet Notes/04022022-Microcontroller and Microprocessor differences.md",
     "Notes/Fleet Notes/03022022-Embedded Systems.md",
     "Notes/Fleet Notes/05022022-How Microcontrollers Work.md",
-    "Main/Course TOC/EPM101.md",
-    "Notes/Fleet Notes/03022022-Microcontroller and Microprocessor.md",
-    "Main/Course TOC/CE332.md",
-    "Notes/Section Notes/CE332-W01.md"
+    "Main/Course TOC/EPM101.md"
   ]
 }
