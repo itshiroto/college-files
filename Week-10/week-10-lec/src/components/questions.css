@@ -1,0 +1,32 @@
+.q-answerlist {
+  display: grid;
+  text-align: center;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+
+}
+
+.q-answer {
+  width: 100%;
+  height: 100%;
+}
+
+.q-answer-button {
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.q-answer-button:hover {
+  background-color: rgb(205, 195, 226);
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "question": "HyperText Markup Language disingkat?",
+    "answers": {
+      "list": [
+        "PDIP",
+        "HTML",
+        "JS",
+        "CSS"
+      ],
+      "correct": "HTML"
+    }
+  },
+  {
+    "question": "Framework apa yang digunakan mata kuliah Intro to Technology Web?",
+    "answers": {
+      "list": [
+        "Bootstrap",
+        "Javascript",
+        "React",
+        "Angular"
+      ],
+      "correct": "React"
+    }
+  },
+  {
+    "question": "Salah satu Framework CSS adalah",
+    "answers": {
+      "list": [
+        "Bootstrap",
+        "Javascript",
+        "React",
+        "Angular"
+      ],
+      "correct": "Bootstrap"
+    }
+  },
+  {
+    "question": "Apa yang termasuk element di dalam HTML?",
+    "answers": {
+      "list": [
+        "<body>",
+        "<h1>",
+        "<p>",
+        "Benar semua"
+      ],
+      "correct": "Benar semua"
+    }
+  },
+  {
+    "question": "Nama tag yang digunakan untuk membuat sebuah link?",
+    "answers": {
+      "list": [
+        "<a>",
+        "<link>",
+        "<href>",
+        "<link href>"
+      ],
+      "correct": "<a>"
+    }
+  }
+]
