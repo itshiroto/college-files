@@ -1,0 +1,30 @@
+1. Jelaskan manfaat digunakannya virtual memory dibandingkan dengan
+   partitioning dalam memory management di sistem operasi!
+
+   Virtual memory memungkinkan komputer untuk mengalokasikan program
+   dalam memori hingga melebihi memori yang ada secara fisik. Sehingga
+   memberikan kesan _unlimited memory_ pada user.
+
+
+2. Sebutkan dan Jelaskan dengan singkat teknik implementasi virtual
+   memory selain paging!
+
+   Virtual memory bekerja dengan cara mengirim data atau program dari
+   memori yang sudah penuh ke memori sementara. Kemudian komputer
+   akan menyortir data-data tersebut berdasarkan prioritasnya. Jika
+   data atau program tersebut tergolong penting, maka data akan dimasukkan
+   ke dalam RAM, sedangkan data yang tidak penting akan dimasukkan ke
+   dalam virtual memory.
+
+
+3. Jelaskan dengan singkat apa yang akan dilakukan sistem operasi apabila seluruh
+   page frame pada RAM sudah overcommitted pada saat terjadi page fault!
+
+   Jika seluruh page frame pada RAM telah overcommitted pada saat page fault, maka
+   sistem operasi akan melakukan swap out dimana OS akan menukar kembali ruang memori
+   yang baru dengan ruang memori yang lama. 
+
+   Apabila proses pengikatan dilakukan pada saat load-time/proses baru dimasukkan, maka
+   proses tidak akan pindah ke lokasi yang berbeda. Tapi, jika pengikatan pada saat
+   execution time/proses dieksekusi maka ada kemungkinan proses ditukar ke ruang memori
+   yang berbeda, karena alamat fisik dihitung selema waktu eksekusi.

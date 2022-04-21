@@ -1,0 +1,10 @@
+Jika kita tidak memodifikasi main function yang diberikan pada soal,
+maka program tersebut akan menghasilkan Segmentation Fault. Hal ini
+terjadi karena function isempty() akan mengeluarkan hasil 0 meskipun
+stack masih kosong, dan akhirnya function pop() akan mencoba mengeluarkan
+nilai yang ada dalam stack tersebut. Namun stack tersebut masih kosong, 
+sehingga program akan menghasilkan Segmentation Fault.
+
+Tapi jika kita menginisialisasi stack dengan nilai NULL pada awal program,
+dan memberikan fungsi print pada akhir program, maka program tersebut akan
+mengeluarkan hasil `7 3 2` dari input `-1 2 4 -1 3 7 7 -1 0`.

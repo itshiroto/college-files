@@ -1,0 +1,30 @@
+body {
+  background-color: #bfd1d3;
+}
+
+.App {
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+header {
+  text-align: center;
+  display: flex;
+  margin: 30px;
+  justify-content: center;
+}
+
+header>h1 {
+  font-weight: 400;
+  font-size: 4em;
+  margin: 0;
+  padding: 20px;
+  color: white;
+  background-color: #2cc3b0;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
+}

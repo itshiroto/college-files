@@ -1,0 +1,5 @@
+Jika kita memodifikasi function enqueuenya untuk hanya menerima head saja,
+maka hasil dari program tersebut adalah:
+3 7 7
+dari input:
+-1 2 4 -1 3 7 7 -1 0

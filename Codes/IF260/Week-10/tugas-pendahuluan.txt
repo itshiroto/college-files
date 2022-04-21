@@ -1,0 +1,10 @@
+- Pertama, buatlah suatu array/queue untuk menyimpan pages yang saat
+  ini sedang berada dalam memori serta R-bitnya.
+
+- Lalu, cek pada array tersebut jika page yang ingin dimasukkan sudah
+  ada di dalamnya.
+  - Jika sudah ada, maka naikkan R-bitnya menjadi 1 dan keluar.
+  - Jika pagenya belum ada, maka carilah suatu page yang paling pertama  
+    dimasukkan dengan R-bit 0. Sambil mengubah R-bit page lain menjadi 0 juga.
+    Jika ditemukan, maka ganti page tersebut dengan page baru dan naikkan
+    counter page faultnya

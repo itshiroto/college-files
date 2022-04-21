@@ -3,11 +3,41 @@ Rivo Juicer Wowor
 
 1. Mengapa dilakukan rehashing?
 
+Untuk menghindari terjadinya collision jika pada hashing pertama,
+key yang dihasilkan sudah ada di dalam hash table.
+
 2. Kapan rehashing dilakukan berdasarkan gambar diatas?
 
-3. Sebutkan langkah-langkah melakukan rehashing secara singkat, padat, dan jelas!
+Rehashing terjadi ketika size hash table telah melebihi 70% dari kapasitasnya.
+Hal ini bisa dilihat dalam source codenya di statement `if (percentage >= 70)`.
+
+3. Sebutkan langkah-langkah melakukan rehashing secara singkat, padat,
+dan jelas!
+
+Pertama kita akan membuat hash table sementara yang akan diisi dengan nilai-nilai
+yang ada pada hash table lama. Kemudian hash table lama akan di `free()` agar
+kita bisa mengisi hash table baru dalam variabel tersebut. Selanjutnya, kali dua 
+ukuran hash table lama, dan cari bilangan prima yang mendekati dua kali ukuran 
+lamanya.
+
+Setelah didapatkan size barunya, maka buatlah hash table baru dengan
+ukuran tersebut. Kemudian, lakukan hashing ulang pada hash table sementara tadi,
+dan masukkan nilai tersebut berdasarkan dari key/index hasil hashing ulang tadi
+ke dalam hash table barunya. Jika sudah dipindahkan semua, maka bersihkan hash
+table sementara tadi.
+
 
 4. Jelaskan secara singkat apa itu Sieve of Erathosthenes!
 
+Sieve of Erathosthenes adalah sebuah algoritma yang digunakan untuk mencari
+bilangan prima dari 0 sampai n dengan cara menghapus semua bilangan yang
+ganda dari bilangan prima yang telah ditemukan, dimulai dari bilangan 2.
+
 5. Apakah size yang baru harus mengikuti bilangan prima?
+
+Tidak harus, tapi alasan mengapa kita memakai bilangan prima adalah untuk
+mengurangi terjadinya collision ketika melakukan operasi modulus dalam hash
+functionnya. Dengan menggunakan size yang mengikuti bilangan prima, maka
+kemungkinan suatu elemen memiliki index yang sama ketika dimodulus akan sangat
+kecil.
 

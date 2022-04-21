@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+:root {
+  font-family: 'Roboto', sans-serif;
+}
+
+#App {
+  margin: 0 auto;
+  margin-top: 50px;
+  max-width: 800px;
+}
+
+#App>h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}

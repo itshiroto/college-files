@@ -1,0 +1,78 @@
+1. HyperText Markup Language disingkat?
+  a. PDIP
+  b. HTML
+  c. JS
+  d. CSS 
+
+  "PDIP",
+  "HTML",
+  "JS",
+  "CSS"
+
+  "correct": "PDIP"
+  
+
+2. Framework apa yang digunakan mata kuliah Intro to Technology Web?
+  a. Bootstrap
+  b. Javascript
+  c. React
+  d. Angular
+
+  "Bootstrap",
+  "Javascript",
+  "React",
+  "Angular"
+
+  "correct": "React"
+
+3. Salah satu Framework CSS adalah
+  a. Bootstrap
+  b. Javascript
+  c. React
+  d. Angular
+
+  "Bootstrap",
+  "Javascript",
+  "React",
+  "Angular"
+
+  "correct": "Bootstrap"
+  
+4. Apa yang termasuk element di dalam HTML?
+  a. <body>
+  b. <h1>
+  c. <p>
+  d. Benar semua
+
+  "<body>",
+  "<h1>",
+  "<p>",
+  "Benar semua"
+
+"correct": "Benar semua"
+
+5. nama tag yang digunakan untuk membuat sebuah link?
+  a. <a>
+  b. <link>
+  c. <h1>
+  d. <html>
+
+  "<a>",
+  "<link>",
+  "<h1>",
+  "<html>"
+
+  "correct": "<a>"
+
+6. nama tag yang digunakan untuk membuat sebuah tombol?
+    a. <button>
+    b. <link>
+    c. <a>
+    d. <ul>
+
+    "<button>",
+    "<link>",
+    "<a>",
+    "<ul>"
+    
+    "correct": "<button>"

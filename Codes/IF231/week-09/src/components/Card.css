@@ -1,0 +1,50 @@
+.card {
+    position: relative;
+    min-width: 300px;
+    min-height: 180px;
+    background-color: #83ebec;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.card-title,
+.card-desc {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 20px;
+    width: 5em;
+    height: 5em;
+    object-fit: cover;
+    border: 4px solid #ffffff;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.card-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.card p,
+.card h2 {
+    margin: 0;
+}
+
+.card-title {
+    background-color: #00cfc9;
+}
+
+.card-desc {
+    flex-grow: 1;
+}
